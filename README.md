@@ -27,8 +27,8 @@ Before you begin, ensure you have met the following requirements:
 - **MongoDB**: You need to have MongoDB set up on your machine or use a cloud MongoDB service like [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).
 
 ## Installation
-
-### 1. Clone the Repository
+ 
+  Clone the Repository
 
 First, clone the repository to your local machine using the following command:
 
