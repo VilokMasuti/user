@@ -2,7 +2,8 @@
 import axios from 'axios'
 
 // Define the base URL for the users API
-const API_URL = 'http://localhost:5000/api/users'
+const API_URL = 'https://user-1-8xhn.onrender.com/api/users'
+
 
 
 export const fetchUsers = async () => {
