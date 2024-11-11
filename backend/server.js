@@ -16,7 +16,7 @@ const app = express()
 app.use(cors())
 
 // Set the port for the server to listen on, default to 3000 if not provided in the environment variables
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 5000
 
 // Resolve the absolute path to the current directory
 const __dirname = path.resolve()

@@ -2,7 +2,7 @@
 import axios from 'axios'
 
 // Define the base URL for the users API
-const API_URL = 'http://localhost:3000/api/users'
+const API_URL = 'http://localhost:5000/api/users'
 
 
 export const fetchUsers = async () => {
