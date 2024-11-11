@@ -18,12 +18,12 @@ app.use(express.json())
 app.use('/api/users', userRoutes)
 
 // Serve static files in production
-if (process.env.NODE_ENV === "production") {
-  app.use(express.static(path.join(__dirname, "/Frontend/dist")));
+if (process.env.NODE_ENV === 'production') {
+  app.use(express.static(path.join(__dirname, '/frontend/dist')))
 
-  app.get("*", (req, res) => {
-    res.sendFile(path.resolve(__dirname, "Frontend", "dist", "index.html"));
-  });
+  app.get('*', (req, res) => {
+    res.sendFile(path.resolve(__dirname, 'frontend', 'dist', 'index.html'))
+  })
 }
 // Start the server and listen on the specified port
 app.listen(PORT, () => {
